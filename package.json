@@ -1,10 +1,11 @@
 {
   "name": "raml-parser-cli",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "raml parser cli",
   "main": "main.js",
   "files": [
-    "bin/main.js"
+    "bin/*",
+    "lib/*"
   ],
   "bin": {
     "raml-parser": "bin/main.js"
@@ -21,8 +22,8 @@
     "raml-1-parser": "^1.1.37"
   },
   "devDependencies": {
-    "tap": "^10.x",
-    "standard": "^x"
+    "standard": "^10.0.3",
+    "tap": "^10.7.3"
   },
   "engines": {
     "node": ">6.x"

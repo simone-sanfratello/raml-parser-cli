@@ -23,11 +23,7 @@ npm i -g raml-parser-cli
 raml-parser file.raml
 ````
 
-output on success
-TODO
-
-output on error
-TODO
+![output](doc/output.png)
 
 ---
 
