@@ -19,7 +19,7 @@ if (!_file) {
 raml.parse(_file)
   .then((messages) => {
     if (!messages) {
-      log.success('RAML', 'RAML syntax ok')
+      log.success('RAML', 'syntax ok')
       process.exit(0)
     }
 
